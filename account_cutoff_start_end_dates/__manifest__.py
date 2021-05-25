@@ -21,4 +21,5 @@
     ],
     "installable": True,
     "application": True,
+    "pre_init_hook": "module_migration",
 }
