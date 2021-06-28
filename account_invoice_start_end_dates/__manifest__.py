@@ -16,4 +16,5 @@
     "data": ["views/account_move.xml", "views/product_template.xml"],
     "demo": ["demo/product_demo.xml"],
     "installable": True,
+    "pre_init_hook": "module_migration",
 }
